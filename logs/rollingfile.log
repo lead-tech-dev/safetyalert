@@ -1,3 +1,4 @@
 [INFO ] 2022-06-10 17:16:31.891 [main] AlertApplication - Starting AlertApplication using Java 11.0.14 on DESKTOP-HLI5VSG with PID 8580 (C:\Users\maxit\Documents\openclassrooms projects\5 - Créez votre première application web avec Spring Boot\1 - code\alert\target\classes started by maxit in C:\Users\maxit\Documents\openclassrooms projects\5 - Créez votre première application web avec Spring Boot\1 - code\alert)
 [DEBUG] 2022-06-10 17:16:31.921 [main] AlertApplication - Running with Spring Boot v2.6.8, Spring v5.3.20
 [INFO ] 2022-06-10 17:16:31.922 [main] AlertApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-06-10 17:16:37.558 [main] AlertApplication - Started AlertApplication in 6.527 seconds (JVM running for 9.948)
