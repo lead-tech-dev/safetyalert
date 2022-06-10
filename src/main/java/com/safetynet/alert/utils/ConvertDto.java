@@ -1,6 +1,11 @@
 package com.safetynet.alert.utils;
 
 import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.integration.ChildListDto;
+import com.safetynet.alert.dto.integration.FloodStationListDto;
+import com.safetynet.alert.dto.integration.PersonFireAddressListDto;
+import com.safetynet.alert.dto.integration.PersonInfoListDto;
+import com.safetynet.alert.dto.integration.PersonStationListDto;
 import com.safetynet.alert.dto.person.PersonDto;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.AddressFireStation;
@@ -15,6 +20,73 @@ import java.util.List;
  *
  */
 public class ConvertDto {
+
+  public static PersonStationListDto convertToPersonStationListDto(Person person) {
+    return new PersonStationListDto(person.getFirstName(),
+        person.getLastName(), person.getAddress().getStreet(), person.getPhone());
+  }
+
+  /**
+   * convertToChildListDto. Method that convert
+   * person to childListDto.
+   *
+   * @param person a given person
+   *
+   * @return ChildListDto
+   */
+  public static ChildListDto convertToChildListDto(Person person) {
+    return new ChildListDto(person.getFirstName(),
+        person.getLastName(), person.getAge());
+  }
+
+  /**
+   * convertToPersonFireAddressListDto. Method that convert
+   * person to PersonFireAddressListDto.
+   *
+   * @param person a given person
+   *
+   * @return PersonFireAddressListDto
+   */
+  public static PersonFireAddressListDto convertToPersonFireAddressListDto(Person person) {
+    return new PersonFireAddressListDto(person.getLastName(), person.getPhone(), person.getAge(),
+        person.getMedicalRecords().getMedications(), person.getMedicalRecords().getAllergies());
+  }
+
+  /**
+   * convertToFloodStationListDto. Method that convert a
+   * list of person to FloodStationListDto list.
+   *
+   * @param persons a given person list
+   *
+   * @return FloodStationListDto list
+   */
+  public static List<FloodStationListDto> convertToFloodStationListDto(List<Person> persons) {
+    List<FloodStationListDto> floodStationListDto = new ArrayList<>();
+    for (Person person: persons) {
+      floodStationListDto.add(new FloodStationListDto(person.getLastName(), person.getPhone(),
+          person.getAge(), person.getMedicalRecords().getMedications(),
+          person.getMedicalRecords().getAllergies()));
+    }
+    return floodStationListDto;
+  }
+
+  /**
+   * convertToPersonInfoListDto. Method that convert a
+   * person to PersonInfoListDto.
+   *
+   * @param person a given person
+   *
+   * @return PersonInfoListDto
+   */
+  public static PersonInfoListDto convertToPersonInfoListDto(Person person) {
+    PersonInfoListDto personInfoListDto = new PersonInfoListDto();
+    personInfoListDto.setLastname(person.getLastName());
+    personInfoListDto.setAge(person.getAge());
+    personInfoListDto.setEmail(person.getEmail());
+    personInfoListDto.setMedications(person.getMedicalRecords().getMedications());
+    personInfoListDto.setAllergies(person.getMedicalRecords().getAllergies());
+    return  personInfoListDto;
+  }
 
   /**
    * convertToPersonDto. Method that convert a
