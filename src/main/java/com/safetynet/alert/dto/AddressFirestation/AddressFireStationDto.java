@@ -1,10 +1,15 @@
-package com.safetynet.alert.dto.AddressFirestation;
+package com.safetynet.alert.dto.addressfirestation;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The AddressFireStationDto class implements a addressFireStationDto
+ * entity.
+ *
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

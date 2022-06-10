@@ -1,7 +1,7 @@
 package com.safetynet.alert.dao;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 import com.safetynet.alert.dao.database.Database;
@@ -44,7 +44,6 @@ class MedicalRecordsDaoImplTest {
         "Eric", "23/02/81", List.of("tetramine:280"), List.of("gluten")));
 
 
-
     database = mockStatic(Database.class);
     when(Database.getMedicalRecordsData()).thenReturn(medicalRecords);
 
@@ -82,7 +81,8 @@ class MedicalRecordsDaoImplTest {
 
     // WHEN
     var exception = assertThrows(NoSuchElementException.class,
-        () -> medicalRecordsDaoImpl.saveMedicalRecords(new MedicalRecordsDto().convertToDto(expected)));
+        () -> medicalRecordsDaoImpl.saveMedicalRecords(
+            new MedicalRecordsDto().convertToDto(expected)));
 
     // THEN
     assertThat(exception.getMessage()).isEqualTo("Person doesn't exist !");
@@ -101,7 +101,8 @@ class MedicalRecordsDaoImplTest {
 
     // WHEN
     var exception = assertThrows(BadRequestException.class,
-        () -> medicalRecordsDaoImpl.saveMedicalRecords(new MedicalRecordsDto().convertToDto(given)));
+        () -> medicalRecordsDaoImpl.saveMedicalRecords(
+            new MedicalRecordsDto().convertToDto(given)));
 
     // THEN
     assertThat(exception.getMessage()).isEqualTo("Medical record already exist !");
@@ -160,7 +161,8 @@ class MedicalRecordsDaoImplTest {
 
     // WHEN
     var ex = assertThrows(NoSuchElementException.class,
-        () -> medicalRecordsDaoImpl.updateMedicalRecords(new MedicalRecordsDto().convertToDto(given)));
+        () -> medicalRecordsDaoImpl.updateMedicalRecords(
+            new MedicalRecordsDto().convertToDto(given)));
 
     // THEN
     assertThat(ex.getMessage()).isEqualTo("Medical record doesn't exist!");
@@ -206,7 +208,8 @@ class MedicalRecordsDaoImplTest {
 
     // WHEN
     var ex = assertThrows(NoSuchElementException.class,
-        () -> medicalRecordsDaoImpl.deleteMedicalRecords(new MedicalRecordsDto().convertToDto(given)));
+        () -> medicalRecordsDaoImpl.deleteMedicalRecords(
+            new MedicalRecordsDto().convertToDto(given)));
 
     // THEN
     assertThat(ex.getMessage()).isEqualTo("Medical record doesn't exist !");

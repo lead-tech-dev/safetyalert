@@ -6,6 +6,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The FireStationDto class implements a fireStationDto
+ * entity.
+ *
+ */
 @Data
 @Builder
 @AllArgsConstructor
@@ -13,11 +18,18 @@ import lombok.NoArgsConstructor;
 @lombok.Generated
 public class FireStationDto {
 
-  private String  station;
+  private String station;
 
+  /**
+   * convertToEntity. Method that convert fireStationDto
+   * to entity.
+   *
+   * @param fireStationDto a fireStationDto
+   * @return FireStation
+   */
   public FireStation convertToEntity(FireStationDto fireStationDto) {
 
-    if(fireStationDto == null) {
+    if (fireStationDto == null) {
       return null;
     }
     return FireStation.builder()
@@ -25,8 +37,15 @@ public class FireStationDto {
         .build();
   }
 
+  /**
+   * convertToEntity. Method that convert fireStation
+   * to fireStationDto.
+   *
+   * @param firestation a fireStationDto
+   * @return FireStationDto
+   */
   public FireStationDto convertToDto(FireStation firestation) {
-    if(firestation == null) {
+    if (firestation == null) {
       return null;
     }
     return FireStationDto.builder()

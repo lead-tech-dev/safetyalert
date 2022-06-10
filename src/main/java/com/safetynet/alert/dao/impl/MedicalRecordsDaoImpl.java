@@ -7,18 +7,27 @@ import com.safetynet.alert.dto.medicalrecords.MedicalRecordsDto;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
 import com.safetynet.alert.web.exception.BadRequestException;
-import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Optional;
+import org.springframework.stereotype.Service;
 
+/**
+ * MedicalRecordsDaoImpl. class that implement
+ * medicalRecords business logic
+ */
 @Service
 public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   private final List<MedicalRecords> medicalRecordsData;
 
   private final PersonDao personDao;
 
+  /**
+   * Constructor of class MedicalRecordsDaoImpl.
+   *
+   * @param personDao a personDao
+   */
   public MedicalRecordsDaoImpl(PersonDao personDao) {
 
     this.medicalRecordsData = Database.getMedicalRecordsData();
@@ -28,9 +37,7 @@ public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<MedicalRecords> getMedicalRecordsList() {
@@ -38,14 +45,12 @@ public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public MedicalRecords saveMedicalRecords(MedicalRecordsDto medicalRecordsDto) {
 
-   Optional<Person> existPerson =
+    Optional<Person> existPerson =
         personDao.getPersonByFirstNameAndLastName(medicalRecordsDto.getFirstName(),
             medicalRecordsDto.getLastName());
 
@@ -68,9 +73,7 @@ public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public MedicalRecords updateMedicalRecords(MedicalRecordsDto medicalRecordsDto) {
@@ -88,9 +91,7 @@ public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deleteMedicalRecords(MedicalRecordsDto medicalRecordsDto) {
@@ -106,25 +107,23 @@ public class MedicalRecordsDaoImpl implements MedicalRecordsDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
-  public Optional<MedicalRecords> getMedicalRecordsByFirstNameAndLastName(String firstName, String lastName){
+  public Optional<MedicalRecords> getMedicalRecordsByFirstNameAndLastName(String firstName,
+                                                                          String lastName) {
 
     return
         medicalRecordsData.stream()
-            .filter(current -> Objects.equals(current.getFirstName(), firstName) &&
+            .filter(current -> Objects.equals(current.getFirstName(), firstName)
+                &&
                 Objects.equals(current.getLastName(), lastName))
             .findFirst();
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
-  public String getPersonBirthdate (String firstname, String lastname) {
+  public String getPersonBirthdate(String firstname, String lastname) {
     String birthdate = null;
 
     for (MedicalRecords current : medicalRecordsData) {

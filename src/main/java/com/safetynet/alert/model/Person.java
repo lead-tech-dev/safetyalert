@@ -6,6 +6,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The Person class implements a person
+ * entity.
+ *
+ */
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -23,7 +29,7 @@ public class Person {
 
   private Address address;
 
-  @JsonInclude(JsonInclude.Include. NON_NULL)
+  @JsonInclude(JsonInclude.Include.NON_NULL)
   private int age;
 
 

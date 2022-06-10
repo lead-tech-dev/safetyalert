@@ -1,6 +1,6 @@
 package com.safetynet.alert.utils;
 
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
 import com.safetynet.alert.dto.integration.ChildListDto;
 import com.safetynet.alert.dto.integration.FloodStationListDto;
 import com.safetynet.alert.dto.integration.PersonFireAddressListDto;
@@ -17,7 +17,6 @@ import java.util.List;
 /**
  * ConvertDto class define method to
  * make conversion between Object and Dto.
- *
  */
 public class ConvertDto {
 
@@ -31,7 +30,6 @@ public class ConvertDto {
    * person to childListDto.
    *
    * @param person a given person
-   *
    * @return ChildListDto
    */
   public static ChildListDto convertToChildListDto(Person person) {
@@ -44,7 +42,6 @@ public class ConvertDto {
    * person to PersonFireAddressListDto.
    *
    * @param person a given person
-   *
    * @return PersonFireAddressListDto
    */
   public static PersonFireAddressListDto convertToPersonFireAddressListDto(Person person) {
@@ -57,12 +54,11 @@ public class ConvertDto {
    * list of person to FloodStationListDto list.
    *
    * @param persons a given person list
-   *
    * @return FloodStationListDto list
    */
   public static List<FloodStationListDto> convertToFloodStationListDto(List<Person> persons) {
     List<FloodStationListDto> floodStationListDto = new ArrayList<>();
-    for (Person person: persons) {
+    for (Person person : persons) {
       floodStationListDto.add(new FloodStationListDto(person.getLastName(), person.getPhone(),
           person.getAge(), person.getMedicalRecords().getMedications(),
           person.getMedicalRecords().getAllergies()));
@@ -75,7 +71,6 @@ public class ConvertDto {
    * person to PersonInfoListDto.
    *
    * @param person a given person
-   *
    * @return PersonInfoListDto
    */
   public static PersonInfoListDto convertToPersonInfoListDto(Person person) {
@@ -85,7 +80,7 @@ public class ConvertDto {
     personInfoListDto.setEmail(person.getEmail());
     personInfoListDto.setMedications(person.getMedicalRecords().getMedications());
     personInfoListDto.setAllergies(person.getMedicalRecords().getAllergies());
-    return  personInfoListDto;
+    return personInfoListDto;
   }
 
   /**
@@ -93,14 +88,13 @@ public class ConvertDto {
    * list of personDto list
    *
    * @param persons a given person list
-   *
    * @return PersonDto list
    */
   public static List<PersonDto> convertToPersonDto(List<Person> persons) {
     List<PersonDto> personDto = new ArrayList<>();
-    for (Person person: persons) {
+    for (Person person : persons) {
       personDto.add(new PersonDto(person.getFirstName(), person.getLastName(),
-          person.getAddress().getStreet(),  person.getPhone(),
+          person.getAddress().getStreet(), person.getPhone(),
           person.getAddress().getCity(), person.getAddress().getZip(),
           person.getEmail()));
     }
@@ -112,15 +106,15 @@ public class ConvertDto {
    * personDto to Person.
    *
    * @param personDto a given personDto
-   *
    * @return Person
    */
   public static Person convertToPerson(PersonDto personDto) {
 
 
     return new Person(personDto.getFirstName(), personDto.getLastName(),
-        personDto.getPhone(), personDto.getEmail(), new Address(personDto.getAddress(), personDto.getCity(),
-        personDto.getZip()), 0,
+        personDto.getPhone(), personDto.getEmail(),
+        new Address(personDto.getAddress(), personDto.getCity(),
+            personDto.getZip()), 0,
         new MedicalRecords());
   }
 
@@ -129,10 +123,10 @@ public class ConvertDto {
    * AddressFireStation to AddressFireStationDto.
    *
    * @param addressFireStation a given addressFireStation
-   *
    * @return AddressFireStationDto
    */
-  public static AddressFireStationDto convertToAddressFireStationListDto(AddressFireStation addressFireStation) {
+  public static AddressFireStationDto convertToAddressFireStationListDto(
+      AddressFireStation addressFireStation) {
     return new AddressFireStationDto(addressFireStation.getAddress().getStreet(),
         addressFireStation.getFirestation().getStation());
   }

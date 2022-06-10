@@ -23,22 +23,24 @@
             <patternlayout>
                 <Pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</Pattern>
             </patternlayout>
-                <policies>
-                    <timebasedtriggeringpolicy interval="2" modulate="true"/>
-                    <sizebasedtriggeringpolicy size="30 MB"/>
+            <policies>
+                <timebasedtriggeringpolicy interval="2" modulate="true"/>
+                <sizebasedtriggeringpolicy size="30 MB"/>
 
-                </policies>
-                <defaultrolloverstrategy max="30">
-                </defaultrolloverstrategy></rollingfile>
+            </policies>
+            <defaultrolloverstrategy max="30">
+            </defaultrolloverstrategy>
+        </rollingfile>
     </appenders>
     <loggers>
         <logger name="com.safetynet.alert" level="debug" additivity="false">
             <appenderref ref="File-Appender" level="error"/>
-                <appenderref ref="RollingFile-Appender" level="debug"/>
-                    <appenderref ref="Console-Appender" level="info"/>
+            <appenderref ref="RollingFile-Appender" level="debug"/>
+            <appenderref ref="Console-Appender" level="info"/>
         </logger>
         <root level="debug">
             <appenderref ref="Console-Appender">
-            </appenderref></root>
+            </appenderref>
+        </root>
     </loggers>
 </configuration>

@@ -7,7 +7,6 @@ import java.util.Optional;
 /**
  * AddressDao interface structure the business logic
  * of address.
- *
  */
 public interface AddressDao {
 
@@ -24,7 +23,6 @@ public interface AddressDao {
    * address to a data source.
    *
    * @param address an address object
-   *
    * @return an address object
    */
   Address saveAddress(Address address);
@@ -34,7 +32,6 @@ public interface AddressDao {
    * address in a data source.
    *
    * @param address an address object
-   *
    * @return an address object
    */
   Address updateAddress(Address address);
@@ -51,7 +48,7 @@ public interface AddressDao {
    * getAddressByStreet. Method that get an
    * address in a data source.
    *
-   * @param address an address object
+   * @param street an address object
    */
   Optional<Address> getAddressByStreet(String street);
 

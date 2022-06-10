@@ -1,7 +1,6 @@
 package com.safetynet.alert.dto;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import com.safetynet.alert.dto.person.PersonDto;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.MedicalRecords;
@@ -18,7 +17,7 @@ class PersonDtoTest {
   @DisplayName("convertToEntity should convert given personDto to person")
   void convertToEntity_ShouldConvertPersonDtoToPerson_ForGivenPersonDto() {
     // GIVEN
-    PersonDto personDto =   new PersonDto("Cartman", "Eric", "7 rue lucien deneau", "0758951895",
+    PersonDto personDto = new PersonDto("Cartman", "Eric", "7 rue lucien deneau", "0758951895",
         "Mainvilliers", "28300", "ericmaximan@gmail.com");
     Person expected = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
@@ -38,7 +37,7 @@ class PersonDtoTest {
     Person person = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
-    PersonDto expected =   new PersonDto("Cartman", "Eric", "7 rue lucien deneau", "0758951895",
+    PersonDto expected = new PersonDto("Cartman", "Eric", "7 rue lucien deneau", "0758951895",
         "Mainvilliers", "28300", "ericmaximan@gmail.com");
 
     // WHEN

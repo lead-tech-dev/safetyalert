@@ -4,12 +4,16 @@ import com.safetynet.alert.dao.AddressDao;
 import com.safetynet.alert.dao.database.Database;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.web.exception.BadRequestException;
-import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Optional;
+import org.springframework.stereotype.Service;
 
+/**
+ * AddressDaoImpl. class that implement
+ *  address business logic
+ */
 @Service
 public class AddressDaoImpl implements AddressDao {
   private final List<Address> addressData;
@@ -19,9 +23,7 @@ public class AddressDaoImpl implements AddressDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<Address> getAddressList() {
@@ -29,9 +31,7 @@ public class AddressDaoImpl implements AddressDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Address saveAddress(Address address) {
@@ -46,9 +46,7 @@ public class AddressDaoImpl implements AddressDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Address updateAddress(Address address) {
@@ -63,9 +61,7 @@ public class AddressDaoImpl implements AddressDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deleteAddress(Address address) {

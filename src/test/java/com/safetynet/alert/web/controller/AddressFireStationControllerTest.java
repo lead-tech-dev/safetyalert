@@ -3,7 +3,7 @@ package com.safetynet.alert.web.controller;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
 import com.safetynet.alert.web.AbstractTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

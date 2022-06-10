@@ -1,14 +1,14 @@
 package com.safetynet.alert.dao;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 import com.safetynet.alert.dao.database.Database;
 import com.safetynet.alert.dao.impl.AddressDaoImpl;
 import com.safetynet.alert.dao.impl.AddressFireStationDaoImpl;
 import com.safetynet.alert.dao.impl.FireStationDaoImpl;
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.AddressFireStation;
 import com.safetynet.alert.model.FireStation;
@@ -98,7 +98,7 @@ class AddressFireStationDaoImplTest {
   void saveAddressFireStation_ShouldThrowNoSuchElementException_forNotExistAddress() {
     // GIVEN
     AddressFireStationDto expected = new AddressFireStationDto(
-        "7 rue anatol france","3"
+        "7 rue anatol france", "3"
     );
     when(addressDaoImpl.getAddressByStreet("7 rue anatol france")).thenReturn(Optional.empty());
 
@@ -116,7 +116,7 @@ class AddressFireStationDaoImplTest {
   void saveAddressFireStation_ShouldThrowNoSuchElementException_forNotExistStation() {
     // GIVEN
     AddressFireStationDto expected = new AddressFireStationDto(
-        "7 rue lucien deneau","6"
+        "7 rue lucien deneau", "6"
     );
     when(addressDaoImpl.getAddressByStreet("7 rue lucien deneau")).thenReturn(Optional.of(
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"))
@@ -136,7 +136,7 @@ class AddressFireStationDaoImplTest {
       "addressFireStation")
   void saveAddressFireStation_ShouldThrowBadRequestException_forExistAddressStation() {
     // GIVEN
-    AddressFireStationDto expected = new AddressFireStationDto (
+    AddressFireStationDto expected = new AddressFireStationDto(
         "7 rue lucien deneau",
         "3"
     );
@@ -314,7 +314,8 @@ class AddressFireStationDaoImplTest {
     addressFireStationDaoImpl.deleteAddressFireStation(given);
 
     // THEN
-    assertThat(addressFireStationDaoImpl.getAddressFireStationList()).doesNotContain(expectedDelete);
+    assertThat(addressFireStationDaoImpl.getAddressFireStationList()).doesNotContain(
+        expectedDelete);
   }
 
   @Test
@@ -335,7 +336,8 @@ class AddressFireStationDaoImplTest {
     addressFireStationDaoImpl.deleteAddressFireStation(given);
 
     // THEN
-    assertThat(addressFireStationDaoImpl.getAddressFireStationList()).doesNotContain(expectedDelete);
+    assertThat(addressFireStationDaoImpl.getAddressFireStationList()).doesNotContain(
+        expectedDelete);
   }
 
 

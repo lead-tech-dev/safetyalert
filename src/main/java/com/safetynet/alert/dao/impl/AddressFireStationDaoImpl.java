@@ -4,20 +4,24 @@ import com.safetynet.alert.dao.AddressDao;
 import com.safetynet.alert.dao.AddressFireStationDao;
 import com.safetynet.alert.dao.FireStationDao;
 import com.safetynet.alert.dao.database.Database;
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.AddressFireStation;
 import com.safetynet.alert.model.FireStation;
 import com.safetynet.alert.utils.ConvertDto;
 import com.safetynet.alert.web.exception.BadRequestException;
-import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Service;
 
+/**
+ * AddressFireStationDaoImpl. class that implement
+ *  AddressFireStation business logic
+ */
 @Service
 public class AddressFireStationDaoImpl implements AddressFireStationDao {
 
@@ -28,6 +32,12 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   private final FireStationDao fireStationDao;
 
 
+  /**
+   * Constructor of class AddressFireStationDaoImpl.
+   *
+   * @param addressDao a addressDao
+   * @param fireStationDao afireStationDao
+   */
   public AddressFireStationDaoImpl(AddressDao addressDao, FireStationDao fireStationDao) {
     this.addressFireStationData = Database.getAddressFireStationData();
     this.addressDao = addressDao;
@@ -35,9 +45,7 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<AddressFireStationDto> getAddressFireStationList() {
@@ -47,9 +55,7 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public AddressFireStationDto saveAddressFireStation(AddressFireStationDto addressFirestationDto) {
@@ -81,12 +87,11 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
-  public AddressFireStationDto updateAddressFireStation(AddressFireStationDto addressFirestationDto) {
+  public AddressFireStationDto updateAddressFireStation(
+      AddressFireStationDto addressFirestationDto) {
 
     Optional<AddressFireStation> existAddressStation =
         getAddressFireStationByAddress(addressFirestationDto.getAddress());
@@ -110,9 +115,7 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deleteAddressFireStation(AddressFireStationDto addressFirestationDto) {
@@ -137,26 +140,22 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Optional<AddressFireStation> getFireStationByAddressAndStation(String address,
-                                                                        String station){
+                                                                        String station) {
     return addressFireStationData.stream()
-        .filter(current -> Objects.equals(current.getAddress().getStreet(), address) &&
-            Objects.equals(current.getFirestation().getStation(), station))
+        .filter(current -> Objects.equals(current.getAddress().getStreet(), address)
+            && Objects.equals(current.getFirestation().getStation(), station))
         .findFirst();
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
-  public Optional<AddressFireStation> getAddressFireStationByAddress(String address){
+  public Optional<AddressFireStation> getAddressFireStationByAddress(String address) {
 
     return addressFireStationData.stream()
         .filter(current -> Objects.equals(current.getAddress().getStreet(), address))
@@ -164,55 +163,49 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
-  public Optional<AddressFireStation> getAddressFireStationByStation(String station){
+  public Optional<AddressFireStation> getAddressFireStationByStation(String station) {
     return addressFireStationData.stream()
         .filter(current -> Objects.equals(current.getFirestation().getStation(), station))
         .findFirst();
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deleteAddressFireStationByAddress(String address) {
     List<AddressFireStation> removedAddress = new ArrayList<>();
 
     for (AddressFireStation current : addressFireStationData) {
-      if (Objects.equals(current.getAddress().getStreet(), address))
+      if (Objects.equals(current.getAddress().getStreet(), address)) {
         removedAddress.add(current);
+      }
     }
 
     addressFireStationData.removeAll(removedAddress);
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deleteAddressFireStationByStation(String station) {
     List<AddressFireStation> removedStation = new ArrayList<>();
 
     for (AddressFireStation current : addressFireStationData) {
-      if (Objects.equals(current.getFirestation().getStation(), station))
+      if (Objects.equals(current.getFirestation().getStation(), station)) {
         removedStation.add(current);
+      }
     }
 
     addressFireStationData.removeAll(removedStation);
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<String> getAddressListByStation(String station) {
@@ -229,9 +222,7 @@ public class AddressFireStationDaoImpl implements AddressFireStationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   public List<String> getStationListByAddress(String address) {
     List<String> stations = new ArrayList<>();

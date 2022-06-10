@@ -1,11 +1,16 @@
 package com.safetynet.alert.dto.integration;
 
+import java.util.ArrayList;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * The FloodStationListDto class implements a floodStationListDto
+ * entity.
+ *
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

@@ -11,7 +11,6 @@ import com.safetynet.alert.dto.integration.PersonInfoListDto;
 import com.safetynet.alert.dto.integration.PersonStationListDto;
 import com.safetynet.alert.model.Person;
 import com.safetynet.alert.utils.ConvertDto;
-import org.springframework.stereotype.Service;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
@@ -23,7 +22,13 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Service;
 
+
+/**
+ * IntegrationDaoImpl. class that implement
+ *  integration business logic
+ */
 @Service
 public class IntegrationDaoImpl implements IntegrationDao {
   private final PersonDao personDao;
@@ -36,6 +41,13 @@ public class IntegrationDaoImpl implements IntegrationDao {
 
   private final SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy", Locale.FRANCE);
 
+  /**
+   * Constructor of class IntegrationDaoImpl.
+   *
+   * @param personDao a personDto
+   * @param addressFireStationDao a addressFireStationDao
+   * @param medicalRecordsDao a medicalRecordsDao
+   */
   public IntegrationDaoImpl(PersonDao personDao, AddressFireStationDao addressFireStationDao,
                             MedicalRecordsDao medicalRecordsDao) {
     this.personDao = personDao;
@@ -45,9 +57,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Map<String, Object> getPersonStationListByAddresses(String stationNumber) {
@@ -82,9 +92,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Map<String, Object> getChildList(String address) {
@@ -106,7 +114,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
 
     if (childPersons.size() == 0) {
       return children;
-    }else {
+    } else {
       children.put("Children at this address", childPersons);
       children.put("Other family members", adultPersons);
     }
@@ -115,9 +123,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<String> getPersonPhoneList(String fireStation) {
@@ -133,9 +139,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<Person> getPersonListByAddress(String address) {
@@ -151,9 +155,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Map<String, Object> getPersonFireAddressList(String address) {
@@ -171,9 +173,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Map<String, Object> getPersonFloodStationList(String[] stations) {
@@ -194,9 +194,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<PersonInfoListDto> getPersonInfoList(String firstname, String lastname) {
@@ -204,9 +202,9 @@ public class IntegrationDaoImpl implements IntegrationDao {
     List<PersonInfoListDto> personPhoneListDto = new ArrayList<>();
 
     for (Person current : personData) {
-      if (Objects.equals(current.getFirstName(), firstname) &&
-          Objects.equals(current.getLastName()
-              , lastname)) {
+      if (Objects.equals(current.getFirstName(), firstname)
+          &&
+          Objects.equals(current.getLastName(), lastname)) {
         current.setAge(getPersonAge(current));
         personPhoneListDto.add(ConvertDto.convertToPersonInfoListDto(current));
       }
@@ -216,9 +214,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<String> getCommunityEmailList(String city) {
@@ -231,11 +227,9 @@ public class IntegrationDaoImpl implements IntegrationDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
-  private int getPersonAge(Person person){
+  private int getPersonAge(Person person) {
     int age = 0;
     try {
       Date personAge =
@@ -246,7 +240,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
 
       age = curDate.getYear() - personAge.getYear();
 
-    }catch (ParseException parseException) {
+    } catch (ParseException parseException) {
       System.out.println("error");
     }
 

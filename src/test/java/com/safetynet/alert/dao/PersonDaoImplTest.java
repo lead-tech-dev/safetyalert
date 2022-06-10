@@ -1,7 +1,7 @@
 package com.safetynet.alert.dao;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 import com.safetynet.alert.dao.database.Database;
@@ -42,7 +42,7 @@ class PersonDaoImplTest {
     List<Person> persons = new ArrayList<>();
     persons.add(
         new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
-        new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
+            new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
             0, new MedicalRecords()));
 
     database = mockStatic(Database.class);
@@ -80,7 +80,8 @@ class PersonDaoImplTest {
     Person given = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
-    when(addressDaoImpl.getAddressByStreet(given.getAddress().getStreet())).thenReturn(Optional.empty());
+    when(addressDaoImpl.getAddressByStreet(given.getAddress().getStreet())).thenReturn(
+        Optional.empty());
 
     // WHEN
     var exception = assertThrows(NoSuchElementException.class,
@@ -150,7 +151,8 @@ class PersonDaoImplTest {
     Person given = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
-    when(addressDaoImpl.getAddressByStreet(given.getAddress().getStreet())).thenReturn(Optional.empty());
+    when(addressDaoImpl.getAddressByStreet(given.getAddress().getStreet())).thenReturn(
+        Optional.empty());
 
     // WHEN
     var ex = assertThrows(NoSuchElementException.class,
@@ -169,7 +171,7 @@ class PersonDaoImplTest {
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
     when(addressDaoImpl.getAddressByStreet(given.getAddress().getStreet())).thenReturn(Optional
-     .of(new Address("7 rue lucien deneau", "Mainvilliers", "28300")));
+        .of(new Address("7 rue lucien deneau", "Mainvilliers", "28300")));
 
     // WHEN
     personDaoImpl.updatePerson(new PersonDto().convertToDto(given));

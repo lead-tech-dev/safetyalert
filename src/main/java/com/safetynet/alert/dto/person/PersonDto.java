@@ -3,12 +3,17 @@ package com.safetynet.alert.dto.person;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
+import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import javax.validation.constraints.NotBlank;
 
+/**
+ * The PersonDto class implements a personDto
+ * entity.
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
@@ -33,10 +38,15 @@ public class PersonDto {
 
   private String email;
 
-
+  /**
+   * convertToEntity. Method that convert PersonDto to Person
+   *
+   * @param personDto a personDto
+   * @return Person
+   */
   public Person convertToEntity(PersonDto personDto) {
 
-    if(personDto == null) {
+    if (personDto == null) {
       return null;
     }
     return Person.builder()
@@ -50,8 +60,14 @@ public class PersonDto {
         .build();
   }
 
+  /**
+   * convertToEntity. Method that convert Person to PersonDto
+   *
+   * @param person a person
+   * @return PersonDto
+   */
   public PersonDto convertToDto(Person person) {
-    if(person == null) {
+    if (person == null) {
       return null;
     }
     return PersonDto.builder()
