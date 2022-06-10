@@ -5,6 +5,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The AddressFireStation class implements a addressFireStation
+ * entity.
+ *
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

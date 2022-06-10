@@ -2,6 +2,9 @@ package com.safetynet.alert.web.controller;
 
 import com.safetynet.alert.dao.FireStationDao;
 import com.safetynet.alert.model.FireStation;
+import java.util.List;
+import java.util.Objects;
+import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -13,20 +16,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import javax.validation.Valid;
-import java.util.List;
-import java.util.Objects;
 
 /**
  * FireStationController. class that implement
  * request/response logic of FireStation.
- *
  */
 @RestController
 @RequestMapping("/firestations")
 public class FireStationController {
 
-  private	static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
   private final FireStationDao fireStationDao;
 
   public FireStationController(FireStationDao fireStationDao) {
@@ -56,7 +55,6 @@ public class FireStationController {
    * of request and return a save FireStation for response.
    *
    * @param fireStation a given FireStation
-   *
    * @return FireStation object
    */
   @PostMapping
@@ -66,7 +64,7 @@ public class FireStationController {
     FireStation fireStationAdded = fireStationDao.saveFireStation(fireStation);
 
     if (Objects.isNull(fireStationAdded)) {
-      return   ResponseEntity.noContent().build();
+      return ResponseEntity.noContent().build();
     }
 
     log.info("Save fireStation request success. Saved with fireStation {}",
@@ -80,7 +78,6 @@ public class FireStationController {
    * of request and return an update FireStation for response.
    *
    * @param fireStation a given addressFireStationDto
-   *
    * @return FireStation object
    */
   @PutMapping

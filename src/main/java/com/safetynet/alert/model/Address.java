@@ -1,12 +1,16 @@
 package com.safetynet.alert.model;
 
-
-
+import java.util.Objects;
+import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import javax.validation.constraints.NotBlank;
-import java.util.Objects;
+
+/**
+ * The Address class implements a address
+ * entity.
+ *
+ */
 
 @Data
 @AllArgsConstructor
@@ -23,9 +27,13 @@ public class Address {
 
   @Override
   public boolean equals(Object obj) {
-    if (obj == null) return false;
+    if (obj == null) {
+      return false;
+    }
 
-    if( ! (obj instanceof Address) ) return false;
+    if (!(obj instanceof Address)) {
+      return false;
+    }
 
     Address other = (Address) obj;
 

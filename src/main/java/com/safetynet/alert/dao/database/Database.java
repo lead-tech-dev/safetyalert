@@ -18,7 +18,6 @@ import java.util.Set;
 /**
  * The Database class define methods
  * to access get data from json file.
- *
  */
 public class Database {
   private static List<Person> personData = null;
@@ -33,16 +32,15 @@ public class Database {
    * Use to get data by entity.
    *
    * @param entity an entity
-   *
    * @return JsonNode
    */
-  private static JsonNode getJsonData (String entity) {
+  private static JsonNode getJsonData(String entity) {
     JsonNode records = null;
 
-    try  {
+    try {
       FileInputStream inputStream = new FileInputStream("src/main/resources/data.json");
       ObjectMapper mapper = new ObjectMapper();
-      JsonNode readJsonData  = mapper.readTree(inputStream);
+      JsonNode readJsonData = mapper.readTree(inputStream);
       records = readJsonData.at("/" + entity);
     } catch (IOException e) {
       System.out.println("Unable to fetch persons: " + e.getMessage());
@@ -99,7 +97,7 @@ public class Database {
 
       JsonNode medicalRecords = getJsonData("medicalrecords");
 
-      for (JsonNode data: medicalRecords) {
+      for (JsonNode data : medicalRecords) {
         List<String> medicationSet = new ArrayList<>();
         List<String> allergySet = new ArrayList<>();
         JsonNode firstName = data.at("/firstName");
@@ -178,7 +176,8 @@ public class Database {
 
       for (int i = 0; i < addressFireStationRecords.size(); i++) {
         addressFireStationData.add(new AddressFireStation(
-            getAddressByStreet(getPersonDataInfo(), addressFireStationRecords.get(i).at("/address").asText()),
+            getAddressByStreet(getPersonDataInfo(),
+                addressFireStationRecords.get(i).at("/address").asText()),
             new FireStation(addressFireStationRecords.get(i).at("/station").asText())
         ));
       }
@@ -192,15 +191,16 @@ public class Database {
    * and lastname.
    *
    * @param medicalRecords a medicalRecords list
-   * @param firstname a person firstname
-   * @param lastname a person lastname
-   *
+   * @param firstname      a person firstname
+   * @param lastname       a person lastname
    * @return MedicalRecords
    */
-  private static MedicalRecords getMedicalRecordByFirstNameAndLastName (List<MedicalRecords> medicalRecords, String firstname, String lastname){
+  private static MedicalRecords getMedicalRecordByFirstNameAndLastName(
+      List<MedicalRecords> medicalRecords, String firstname, String lastname) {
     MedicalRecords medicalRecord = null;
     for (MedicalRecords record : medicalRecords) {
-      if (Objects.equals(record.getFirstName(), firstname) &&
+      if (Objects.equals(record.getFirstName(), firstname)
+          &&
           Objects.equals(record.getLastName(), lastname)) {
         medicalRecord = record;
       }
@@ -212,9 +212,8 @@ public class Database {
   /**
    * Use to get address data.
    *
-   * @param street an address street
+   * @param street  an address street
    * @param persons a person list
-   *
    * @return Address
    */
   private static Address getAddressByStreet(List<Person> persons, String street) {

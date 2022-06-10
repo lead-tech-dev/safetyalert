@@ -1,7 +1,6 @@
 package com.safetynet.alert.dto.integration;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
@@ -21,7 +20,7 @@ class PersonInfoListDtoTest {
     Person person = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
-    PersonInfoListDto expected =   new PersonInfoListDto("Eric",
+    PersonInfoListDto expected = new PersonInfoListDto("Eric",
         0, "ericmaximan@gmail.com", new ArrayList<>(), new ArrayList<>());
 
     // WHEN

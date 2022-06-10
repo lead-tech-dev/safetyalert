@@ -4,6 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The PersonStationListDto class implements a personStationListDto
+ * entity.
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

@@ -1,8 +1,7 @@
 package com.safetynet.alert.utils;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
 import com.safetynet.alert.dto.integration.ChildListDto;
 import com.safetynet.alert.dto.integration.FloodStationListDto;
 import com.safetynet.alert.dto.integration.PersonFireAddressListDto;

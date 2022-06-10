@@ -7,18 +7,27 @@ import com.safetynet.alert.dto.person.PersonDto;
 import com.safetynet.alert.model.Address;
 import com.safetynet.alert.model.Person;
 import com.safetynet.alert.utils.ConvertDto;
-import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Optional;
+import org.springframework.stereotype.Service;
 
+/**
+ * PersonDaoImpl. class that implement
+ * person business logic
+ */
 @Service
 public class PersonDaoImpl implements PersonDao {
   private final List<Person> personData;
 
   private final AddressDao addressDao;
 
+  /**
+   * Constructor of class PersonDaoImpl.
+   *
+   * @param addressDao a addressDao
+   */
   public PersonDaoImpl(AddressDao addressDao) {
 
     this.personData = Database.getPersonDataInfo();
@@ -27,9 +36,7 @@ public class PersonDaoImpl implements PersonDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public List<PersonDto> getPersonList() {
@@ -37,9 +44,7 @@ public class PersonDaoImpl implements PersonDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public PersonDto savePerson(PersonDto personDto) {
@@ -54,9 +59,7 @@ public class PersonDaoImpl implements PersonDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public PersonDto updatePerson(PersonDto personDto) {
@@ -71,7 +74,7 @@ public class PersonDaoImpl implements PersonDao {
     Optional<Address> existAddress =
         addressDao.getAddressByStreet(personDto.getAddress());
     if (existAddress.isEmpty()) {
-        throw new NoSuchElementException("Address doesn't exit !");
+      throw new NoSuchElementException("Address doesn't exit !");
     }
 
     personData.set(personData.indexOf(existPerson.get()),
@@ -81,9 +84,7 @@ public class PersonDaoImpl implements PersonDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public void deletePerson(PersonDto personDto) {
@@ -99,25 +100,22 @@ public class PersonDaoImpl implements PersonDao {
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
   public Optional<Person> getPersonByFirstNameAndLastName(String firstName, String lastName) {
     return personData.stream()
-        .filter(current -> Objects.equals(current.getFirstName(), firstName) &&
+        .filter(current -> Objects.equals(current.getFirstName(), firstName)
+            &&
             Objects.equals(current.getLastName(), lastName))
         .findFirst();
   }
 
   /**
-   *
    * {@inheritDoc}
-   *
    */
   @Override
-  public Person getPersonByAddress (String address) {
+  public Person getPersonByAddress(String address) {
     Person person = null;
 
     for (Person current : personData) {

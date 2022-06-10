@@ -2,7 +2,10 @@ package com.safetynet.alert.web.controller;
 
 
 import com.safetynet.alert.dao.AddressFireStationDao;
-import com.safetynet.alert.dto.AddressFirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
+import java.util.List;
+import java.util.Objects;
+import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -14,20 +17,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import javax.validation.Valid;
-import java.util.List;
-import java.util.Objects;
 
 /**
  * AddressFireStationController. class that implement
  * request/response logic of AddressFireStation.
- *
  */
 @RestController
 @RequestMapping("/addressfirestations")
 public class AddressFireStationController {
 
-  private	static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
   private final AddressFireStationDao addressFireStationService;
 
   public AddressFireStationController(AddressFireStationDao addressFireStationService) {
@@ -58,18 +57,17 @@ public class AddressFireStationController {
    * of request and return a save AddressFireStationDto for response.
    *
    * @param addressFireStationDto a given addressFireStationDto
-   *
    * @return AddressFireStationDto object
    */
   @PostMapping
   public ResponseEntity<AddressFireStationDto> saveAddressFireStation(@Valid @RequestBody
-                                                               AddressFireStationDto addressFireStationDto) {
+         AddressFireStationDto addressFireStationDto) {
     log.info("Saving addressFireStation with addressFireStation {}", addressFireStationDto);
 
     AddressFireStationDto fireStationAdded =
         addressFireStationService.saveAddressFireStation(addressFireStationDto);
     if (Objects.isNull(addressFireStationDto)) {
-      return   ResponseEntity.noContent().build();
+      return ResponseEntity.noContent().build();
     }
 
     log.info("Save addressFireStation request success. Saved with addressFireStation {}",
@@ -83,12 +81,11 @@ public class AddressFireStationController {
    * of request and return an update AddressFireStationDto for response.
    *
    * @param addressFireStationDto a given addressFireStationDto
-   *
    * @return AddressFireStationDto object
    */
   @PutMapping
   public AddressFireStationDto updateAddressFireStation(@Valid @RequestBody
-                                                        AddressFireStationDto addressFireStationDto) {
+             AddressFireStationDto addressFireStationDto) {
     log.info("Updating addressFireStation with addressFireStation {}", addressFireStationDto);
 
     AddressFireStationDto updated =

@@ -65,7 +65,8 @@ class IntegrationDaoImplTest {
 
     when(Database.getPersonDataInfo()).thenReturn(persons);
 
-    integrationDaoImpl = new IntegrationDaoImpl(personDaoImpl, addressFireStationDaoImpl, medicalRecordsDaoImpl);
+    integrationDaoImpl =
+        new IntegrationDaoImpl(personDaoImpl, addressFireStationDaoImpl, medicalRecordsDaoImpl);
   }
 
   @AfterEach
@@ -74,16 +75,17 @@ class IntegrationDaoImplTest {
   }
 
 
-
   @Test
-  @DisplayName("getPersonStationListByAddresses should return list of people covered by the fire station")
+  @DisplayName("getPersonStationListByAddresses should return list of people covered by the fire " +
+      "station")
   void getPersonStationListByAddresses_ShouldReturnPersonListCoveredByFireStation_ForGivenStationNumber() {
     // GIVEN
     Person person = new Person("Cartman", "Eric", "0758951895", "ericmaximan@gmail.com",
         new Address("7 rue lucien deneau", "Mainvilliers", "28300"),
         0, new MedicalRecords());
 
-    when(addressFireStationDaoImpl.getAddressListByStation("3")).thenReturn(List.of("7 rue lucien deneau"));
+    when(addressFireStationDaoImpl.getAddressListByStation("3")).thenReturn(
+        List.of("7 rue lucien deneau"));
 
     when(personDaoImpl.getPersonByAddress("7 rue lucien deneau")).thenReturn(person);
 
@@ -95,7 +97,8 @@ class IntegrationDaoImplTest {
     // THEN
     assertThat(result, IsMapContaining.hasEntry("Adult number", 1));
     assertThat(result, IsMapContaining.hasEntry("Child number", 0));
-    assertThat(result, IsMapContaining.hasEntry("Data", List.of(ConvertDto.convertToPersonStationListDto(person))));
+    assertThat(result, IsMapContaining.hasEntry("Data",
+        List.of(ConvertDto.convertToPersonStationListDto(person))));
   }
 
   @Test

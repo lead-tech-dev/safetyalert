@@ -1,7 +1,6 @@
 package com.safetynet.alert.dto;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import com.safetynet.alert.dto.firestation.FireStationDto;
 import com.safetynet.alert.model.FireStation;
 import org.junit.jupiter.api.DisplayName;

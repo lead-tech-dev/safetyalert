@@ -2,23 +2,22 @@ package com.safetynet.alert.web.controller;
 
 import com.safetynet.alert.dao.IntegrationDao;
 import com.safetynet.alert.dto.integration.PersonInfoListDto;
+import java.util.List;
+import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.List;
-import java.util.Map;
 
 /**
  * IntegrationController. class that implement
  * request/response logic of urls.
- *
  */
 @RestController
 public class IntegrationController {
 
-  private	static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
   private final IntegrationDao integrationDao;
 
   public IntegrationController(IntegrationDao integrationDao) {
@@ -31,17 +30,17 @@ public class IntegrationController {
    * to response.
    *
    * @param stationNumber a given station number
-   *
-   * @return a map of adult number, child number
-   * and Person list
+   * @return a map of adult number, child number and Person list
    */
   @GetMapping("/firestation")
-  public Map<String, Object> getPersonStationList (@RequestParam("stationNumber") String stationNumber) {
+  public Map<String, Object> getPersonStationList(
+      @RequestParam("stationNumber") String stationNumber) {
     log.info("Getting person station list by address for station number {}", stationNumber);
 
     Map<String, Object> result = integrationDao.getPersonStationListByAddresses(stationNumber);
 
-    log.info("getPersonStationList request success. list found for station number {}", stationNumber);
+    log.info("getPersonStationList request success. list found for station number {}",
+        stationNumber);
     return result;
   }
 
@@ -51,11 +50,10 @@ public class IntegrationController {
    * to response.
    *
    * @param address a given address
-   *
    * @return a map of child and other family members
    */
   @GetMapping("/childAlert")
-  public Map<String, Object> getChildList (@RequestParam("address") String address) {
+  public Map<String, Object> getChildList(@RequestParam("address") String address) {
     log.info("Getting child list for address {}", address);
 
     Map<String, Object> result = integrationDao.getChildList(address);
@@ -69,11 +67,10 @@ public class IntegrationController {
    * and return a String list of phone number to response.
    *
    * @param fireStation a given station
-   *
    * @return a String list of phone number
    */
   @GetMapping("/phoneAlert")
-  public List<String> getPhoneAlertList (@RequestParam("fireStation") String fireStation) {
+  public List<String> getPhoneAlertList(@RequestParam("fireStation") String fireStation) {
     return integrationDao.getPersonPhoneList(fireStation);
   }
 
@@ -82,11 +79,10 @@ public class IntegrationController {
    * and return a map of station and residents in response.
    *
    * @param address a given address
-   *
    * @return a map of station and residents
    */
   @GetMapping("/fire")
-  public Map<String, Object> getPersonFireAddressList (@RequestParam("address") String address) {
+  public Map<String, Object> getPersonFireAddressList(@RequestParam("address") String address) {
     log.info("Getting person fire address list for address {}", address);
 
     Map<String, Object> result = integrationDao.getPersonFireAddressList(address);
@@ -100,11 +96,10 @@ public class IntegrationController {
    * from request and map of address and person list in response.
    *
    * @param stations a given array of stations
-   *
    * @return a map of address and person list
    */
   @GetMapping("/flood/stations")
-  public Map<String, Object> getPersonFloodStationList (@RequestParam String[] stations){
+  public Map<String, Object> getPersonFloodStationList(@RequestParam String[] stations) {
     log.info("Getting person flood station list for station {}", (Object) stations);
 
     Map<String, Object> result = integrationDao.getPersonFloodStationList(stations);
@@ -120,14 +115,13 @@ public class IntegrationController {
    * in response.
    *
    * @param firstName a given firstname
-   * @param lastName a given lastname
-   *
+   * @param lastName  a given lastname
    * @return a person List with medicalRecords
    */
   @GetMapping("/personInfo")
-  public List<PersonInfoListDto> getPersonInfoList (@RequestParam("firstName") String firstName,
-                                                    @RequestParam("lastName") String lastName) {
-    log.info("Getting person info list  for {}, {}",  firstName, lastName);
+  public List<PersonInfoListDto> getPersonInfoList(@RequestParam("firstName") String firstName,
+                                                   @RequestParam("lastName") String lastName) {
+    log.info("Getting person info list  for {}, {}", firstName, lastName);
 
     List<PersonInfoListDto> result = integrationDao.getPersonInfoList(firstName, lastName);
 
@@ -142,11 +136,10 @@ public class IntegrationController {
    * in response.
    *
    * @param city a given city
-   *
    * @return a person List email
    */
   @GetMapping("/communityEmail")
-  public List<String> getCommunityEmailList (@RequestParam("city") String city) {
+  public List<String> getCommunityEmailList(@RequestParam("city") String city) {
     log.info("Getting community email list  for city {}", city);
 
     List<String> result = integrationDao.getCommunityEmailList(city);

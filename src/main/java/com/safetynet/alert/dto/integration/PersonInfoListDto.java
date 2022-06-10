@@ -1,13 +1,18 @@
 package com.safetynet.alert.dto.integration;
 
 import com.safetynet.alert.model.Person;
+import java.util.ArrayList;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * The PersonInfoListDto class implements a personInfoListDto
+ * entity.
+ *
+ */
 @Data
 @Builder
 @AllArgsConstructor
@@ -25,10 +30,14 @@ public class PersonInfoListDto {
 
   private List<String> allergies = new ArrayList<>();
 
-
-
+  /**
+   * convertToDto. Method that convert Person to PersonInfoListDto
+   *
+   * @param person a person
+   * @return PersonInfoListDto
+   */
   public PersonInfoListDto convertToDto(Person person) {
-    if(person == null) {
+    if (person == null) {
       return null;
     }
     return PersonInfoListDto.builder()

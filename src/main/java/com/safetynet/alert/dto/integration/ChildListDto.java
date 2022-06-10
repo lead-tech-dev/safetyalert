@@ -4,6 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * The ChildListDto class implements a childListDto
+ * entity.
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
