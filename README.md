@@ -36,3 +36,8 @@ https://maven.apache.org/install.html
 Import the code into an IDE of your choice and run the App.java to launch the application.
 
 
+### Testing
+
+To run the tests from maven, go to the folder that contains the pom.xml file and execute the below command.
+
+`mvn test`
