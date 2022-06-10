@@ -1,6 +1,6 @@
 # project start
 
-version: v0.1
+version: v0.2
 
 # Safetynet alert
 
