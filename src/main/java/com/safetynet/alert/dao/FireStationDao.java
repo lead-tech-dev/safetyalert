@@ -1,56 +1,111 @@
 package com.safetynet.alert.dao;
 
+import com.safetynet.alert.dto.firestation.FireStationDto;
 import com.safetynet.alert.model.FireStation;
 import java.util.List;
 import java.util.Optional;
 
 /**
  * FireStationDao interface structure the business logic
- * of fireStation.
+ * of mapping address/station.
  */
 public interface FireStationDao {
 
   /**
-   * getFireStationList. Method that get a
+   * getStationList. Method that get a
    * list of address/station from a data source.
    *
-   * @return a FireStation list
+   * @return a mapping of address/station list
    */
-  List<FireStation> getFireStationList();
+  List<FireStationDto> getFireStationList();
 
   /**
-   * saveFireStation. Method that save an
-   * FireStation to a data source.
+   * saveStation. Method that save an
+   * addressFireStation to a data source.
    *
-   * @param fireStation an FireStation object
+   * @param fireStationDto an AddressFireStation object
    * @return an FireStation object
    */
-  FireStation saveFireStation(FireStation fireStation);
+  FireStationDto saveFireStation(FireStationDto fireStationDto);
 
   /**
-   * updateFireStation. Method that update an
+   * updateStation. Method that update an
+   * addressFireStation in a data source.
+   *
+   * @param addressFireStationDto an AddressFireStation object
+   * @return an address object
+   */
+  FireStationDto updateFireStation(FireStationDto addressFireStationDto);
+
+  /**
+   * deleteStation. Method that delete an
    * FireStation in a data source.
    *
-   * @param fireStation an FireStation object
-   * @return a FireStation object
+   * @param fireStationDto an FireStation object
    */
-  FireStation updateFireStation(FireStation fireStation);
+  void deleteFireStation(FireStationDto fireStationDto);
 
   /**
-   * deleteFireStation. Method that delete an
-   * FireStation in a data source.
+   * getFireStationByAddressAndStation. Method that get or not an
+   * AddressFireStation from a data source.
    *
-   * @param fireStation an FireStation object
+   * @param address an address street
+   * @param station a fireStation
+   * @return an optional FireStation object
    */
-  void deleteFireStation(FireStation fireStation);
+  Optional<FireStation> getFireStationByAddressAndStation(String address,
+                                                          String station);
 
   /**
-   * getFireStationByStation. Method that get or not an
+   * getFireStationByAddress. Method that get or not an
+   * FireStation from a data source.
+   *
+   * @param address a street address
+   * @return an optional FireStation object
+   */
+  Optional<FireStation> getFireStationByAddress(String address);
+
+  /**
+   * getStationByStation. Method that get or not an
    * FireStation from a data source.
    *
    * @param station a fireStation station
    * @return an optional FireStation object
    */
   Optional<FireStation> getFireStationByStation(String station);
+
+  /**
+   * deleteByAddress. Method that delete an
+   * FireStation from in data source.
+   *
+   * @param address an address street
+   */
+  void deleteFireStationByAddress(String address);
+
+  /**
+   * deleteByAddress. Method that delete an
+   * FireStation from in data source.
+   *
+   * @param station an fireStation station
+   */
+  void deleteFireStationByStation(String station);
+
+  /**
+   * getAddressListByStation. Method that get a list
+   * of String from a data source.
+   *
+   * @param station a fireStation station
+   * @return a String List
+   */
+  List<String> getAddressListByStation(String station);
+
+  /**
+   * getAddressListByStation. Method that get a list
+   * of String from a data source.
+   *
+   * @param address an address street
+   * @return a AddressFireStation List
+   */
+  List<String> getStationListByAddress(String address);
 
 }

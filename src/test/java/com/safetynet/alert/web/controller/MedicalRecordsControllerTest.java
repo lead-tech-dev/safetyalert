@@ -20,12 +20,11 @@ import java.util.List;
 @Tag("MedicalRecordsControllerTest")
 @DisplayName("MedicalRecords controller test logic")
 class MedicalRecordsControllerTest extends AbstractTest {
-
+  private final String uri = "/medicalRecord";
   @Test
   @DisplayName("getMedicalRecords should return list of medicalRecords")
   void getMedicalRecords_ShouldReturnMedicalRecords() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
 
     // WHEN
     MvcResult mvcResult = this.mvc.perform(MockMvcRequestBuilders.get(uri)
@@ -44,7 +43,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
     // GIVEN
     PersonDto person =   new PersonDto("Cartman", "Eric", "112 Steppes Pl", "0758951895",
         "Culver", "97451", "ericmaximan@gmail.com");
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Cartman",
         "Eric", "23/02/1981", List.of("tetramine:280"), List.of("gluten"));
     String inputJson = super.mapToJson(medicalRecords);
@@ -66,7 +64,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("saveMedicalRecords should return 404 status code for person not exist")
   void saveMedicalRecords_ShouldReturn404StatusCode_ForPersonNotExist() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Charly",
         "Chaplin", "08/06/1945", List.of("tradoxidine:400mg"), Collections.emptyList());
     String inputJson = super.mapToJson(medicalRecords);
@@ -83,7 +80,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("saveMedicalRecords should return 400 status code for already exist medicalRecords")
   void saveMedicalRecords_ShouldReturn40OStatusCode_ForAlreadyExistMedicalRecords() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Eric",
         "Cadigan", "08/06/1945", List.of("tradoxidine:400mg"), Collections.emptyList());
     String inputJson = super.mapToJson(medicalRecords);
@@ -100,7 +96,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("updateMedicalRecords should return 400 status code for not exist medicalRecords")
   void updateMedicalRecords_ShouldReturn404StatusCode_ForNotExistMedicalRecords() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Charly",
         "Chaplin", "08/06/1945", List.of("tradoxidine:400mg"), Collections.emptyList());
     String inputJson = super.mapToJson(medicalRecords);
@@ -118,7 +113,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("updateMedicalRecords should return updated medicalRecords with 200 status code")
   void updateMedicalRecords_ShouldReturnUpdatedMedicalRecordsWith200StatusCode_ForSuccessUpdated() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Eric",
         "Cadigan", "08/06/1945", List.of("alpine:800mg"), List.of("gluten"));
     String inputJson = super.mapToJson(medicalRecords);
@@ -138,7 +132,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("deleteMedicalRecords should return 404 status code")
   void deleteMedicalRecords_ShouldReturn404StatusCode_ForNotExistMedicalRecords() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Charly",
         "Chaplin", "08/06/1945", List.of("tradoxidine:400mg"), Collections.emptyList());
     String inputJson = super.mapToJson(medicalRecords);
@@ -155,7 +148,6 @@ class MedicalRecordsControllerTest extends AbstractTest {
   @DisplayName("deleteMedicalRecords should return 200 status code")
   void deleteMedicalRecords_ShouldReturn200StatusCode_ForSuccessDeleted() throws Exception {
     // GIVEN
-    String uri = "/medicalRecord";
     MedicalRecords medicalRecords = new MedicalRecords("Eric",
         "Cadigan", "08/06/1945", List.of("alpine:800mg"), List.of("gluten"));
     String inputJson = super.mapToJson(medicalRecords);

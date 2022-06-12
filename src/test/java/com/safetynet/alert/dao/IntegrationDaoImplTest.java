@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 import com.safetynet.alert.dao.database.Database;
-import com.safetynet.alert.dao.impl.AddressFireStationDaoImpl;
+import com.safetynet.alert.dao.impl.FireStationDaoImpl;
 import com.safetynet.alert.dao.impl.IntegrationDaoImpl;
 import com.safetynet.alert.dao.impl.MedicalRecordsDaoImpl;
 import com.safetynet.alert.dao.impl.PersonDaoImpl;
@@ -47,7 +47,7 @@ class IntegrationDaoImplTest {
   private PersonDaoImpl personDaoImpl;
 
   @Mock
-  private AddressFireStationDaoImpl addressFireStationDaoImpl;
+  private FireStationDaoImpl addressFireStationDaoImpl;
 
   @Mock
   private MedicalRecordsDaoImpl medicalRecordsDaoImpl;

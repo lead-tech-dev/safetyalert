@@ -138,3 +138,930 @@
 [ERROR] 2022-06-10 19:27:34.037 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
 [ERROR] 2022-06-10 19:27:34.175 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
 [ERROR] 2022-06-10 19:27:34.323 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 19:52:10.614 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 19:52:11.614 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 19:52:11.714 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 19:52:12.617 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 19:52:12.706 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 19:52:13.192 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 19:52:13.257 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 19:52:13.319 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 19:52:13.372 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 19:52:13.634 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 19:52:13.823 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 19:52:13.992 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 19:52:15.522 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 19:52:15.879 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 19:52:15.954 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 19:52:16.026 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 19:52:16.191 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 19:52:16.342 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 19:52:16.543 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 19:52:16.671 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:00:17.729 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:00:18.698 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 20:00:18.781 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:00:19.303 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:00:19.373 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:00:19.513 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:00:19.578 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 20:00:19.775 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 20:00:19.873 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:00:20.124 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:00:20.255 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 20:00:20.291 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:00:21.443 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:00:21.889 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 20:00:21.967 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 20:00:22.019 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 20:00:22.148 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:00:22.240 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 20:00:22.346 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 20:00:22.544 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:15:20.054 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:15:20.921 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 20:15:21.016 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:15:21.693 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:15:21.774 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:15:21.896 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:15:21.949 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 20:15:22.083 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 20:15:22.202 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:15:22.464 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:15:22.609 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 20:15:22.661 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:15:23.767 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:15:24.022 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 20:15:24.126 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 20:15:24.172 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 20:15:24.407 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:15:24.543 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 20:15:24.679 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 20:15:24.857 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:23:20.936 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:23:21.903 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 20:23:21.972 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:23:22.755 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:23:22.855 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:23:23.082 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:23:23.139 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 20:23:23.259 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 20:23:23.340 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:23:23.543 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:23:23.677 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 20:23:23.735 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:23:24.774 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:23:26.454 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 20:23:26.488 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 20:23:26.518 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 20:23:27.533 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:23:28.135 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 20:23:28.199 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 20:23:28.452 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:25:09.080 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:25:10.295 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 20:25:10.409 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:25:11.124 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:25:11.183 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:25:11.466 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:25:11.531 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 20:25:11.664 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 20:25:11.782 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:25:12.068 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:25:12.334 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 20:25:12.424 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:25:14.491 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:25:14.872 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 20:25:14.983 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 20:25:15.205 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 20:25:15.632 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:25:15.795 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 20:25:15.956 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 20:25:16.105 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:29:58.772 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:30:01.193 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-10 20:30:01.280 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:30:02.266 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:30:02.361 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:30:02.609 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-10 20:30:02.678 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-10 20:30:02.869 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-10 20:30:02.938 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-10 20:30:03.184 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:30:03.399 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-10 20:30:03.488 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-10 20:30:05.125 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:30:05.748 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-10 20:30:05.836 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-10 20:30:05.895 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-10 20:30:06.130 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-10 20:30:06.248 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-10 20:30:06.409 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-10 20:30:06.570 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:24:57.331 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:24:58.228 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-11 16:24:58.301 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:24:59.596 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:24:59.796 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:24:59.999 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:25:00.102 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-11 16:25:00.290 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-11 16:25:00.348 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:25:00.632 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:25:00.914 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-11 16:25:00.966 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:25:02.317 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:25:02.747 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-11 16:25:02.794 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-11 16:25:02.866 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-11 16:25:03.110 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:25:03.301 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-11 16:25:03.430 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-11 16:25:03.627 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:27:44.256 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:27:45.285 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-11 16:27:45.375 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:27:45.954 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:27:46.060 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:27:46.231 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:27:46.299 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-11 16:27:46.427 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-11 16:27:46.499 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:27:46.817 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:27:47.025 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-11 16:27:47.068 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:27:48.398 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:27:48.692 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-11 16:27:48.812 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-11 16:27:48.881 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-11 16:27:49.129 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:27:49.267 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-11 16:27:49.384 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-11 16:27:49.480 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:32:14.452 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:32:15.732 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-11 16:32:15.836 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:32:16.647 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:32:16.805 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:32:17.156 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-11 16:32:17.328 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-11 16:32:17.523 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-11 16:32:17.568 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-11 16:32:17.860 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:32:18.162 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-11 16:32:18.264 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-11 16:32:20.397 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:32:20.795 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-11 16:32:20.965 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-11 16:32:21.087 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-11 16:32:21.308 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-11 16:32:21.425 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-11 16:32:21.529 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-11 16:32:21.661 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 14:47:20.394 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 14:47:20.863 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 14:47:21.666 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 14:47:21.843 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 14:47:26.092 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 14:47:26.467 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 14:47:26.522 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 14:47:26.563 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 14:47:28.679 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 14:47:28.942 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 14:47:29.040 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 14:52:07.867 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 14:52:08.038 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 14:52:08.130 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 14:57:50.860 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 14:57:51.093 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 14:57:51.209 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 14:58:27.217 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 14:58:27.593 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 14:58:28.017 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 14:58:28.196 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:00:32.399 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:00:32.622 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:00:32.760 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:00:37.059 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:00:37.314 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:00:37.527 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:00:37.815 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:00:41.363 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:00:41.689 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:00:41.780 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:00:42.028 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:00:43.332 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:00:43.587 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:00:43.684 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:12:30.009 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:12:30.347 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:12:30.500 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:12:30.776 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:12:30.859 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:12:30.904 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:13:25.914 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:13:26.140 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:13:26.307 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:13:30.385 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:13:30.645 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:13:30.844 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:13:30.991 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:13:34.033 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:13:34.318 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:13:34.392 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:13:34.469 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:13:34.760 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:13:34.806 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:13:35.001 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:13:35.082 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:13:35.250 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:13:35.433 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:13:35.488 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:13:35.521 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:13:35.729 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:13:35.964 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:13:36.026 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:30:04.585 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:30:04.881 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:30:05.131 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:30:10.251 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:30:10.727 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:30:11.016 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:30:11.257 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:30:15.197 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:30:15.419 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:30:15.464 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:30:15.677 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:30:16.545 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:30:16.613 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:30:16.760 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:30:16.887 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:30:17.063 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:30:17.207 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:30:17.316 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:30:17.379 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:30:17.657 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:30:18.060 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:30:18.148 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:31:21.166 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:31:21.413 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:31:21.559 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:31:25.447 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:31:25.694 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:31:25.868 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:31:26.022 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:31:29.408 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:31:29.688 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:31:30.088 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:31:30.156 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:31:30.424 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:31:30.516 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:31:30.651 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:31:30.719 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:31:30.819 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:31:31.046 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:31:31.438 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:31:31.495 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:31:31.606 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:31:31.941 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:31:31.994 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:40:06.482 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:40:06.778 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:40:06.912 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:40:11.353 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:40:11.793 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:40:11.880 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:40:12.027 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:40:15.663 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:40:15.897 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:40:15.992 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:40:16.087 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:40:16.559 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:40:16.814 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:40:16.947 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:40:17.150 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:40:17.234 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:40:17.294 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:40:17.388 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:40:17.739 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:40:17.823 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:43:53.037 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:43:53.287 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:43:53.434 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:43:57.989 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:43:58.379 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:43:58.614 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:43:58.765 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:44:02.224 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:44:02.403 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:44:02.482 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:44:02.535 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:44:02.865 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:44:03.677 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:44:03.827 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:44:04.036 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:44:04.100 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:44:04.177 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:44:04.357 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:44:04.665 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:44:04.746 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:45:21.506 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:45:21.733 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:45:21.921 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:45:25.808 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:45:26.110 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:45:26.292 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:45:26.483 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:45:30.046 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:45:30.383 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:45:30.471 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:45:30.569 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:45:30.892 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:45:31.150 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:45:31.318 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:45:31.692 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:45:31.739 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:45:31.846 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:45:32.100 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:45:32.440 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:45:32.519 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:47:37.460 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:47:37.724 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:47:37.860 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:47:42.210 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:47:42.870 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:47:43.054 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:47:43.262 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:47:46.203 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:47:46.388 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:47:46.436 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:47:46.471 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:47:46.772 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:47:47.035 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:47:47.116 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:47:47.339 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:47:47.396 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:47:47.427 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:47:47.609 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:47:48.346 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:47:48.443 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:54:00.507 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:54:00.718 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:54:00.881 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:54:05.727 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:54:06.304 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:54:06.581 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:54:06.791 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:54:10.481 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:54:10.987 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:54:11.107 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:54:11.338 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:54:11.851 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:54:12.156 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:54:12.343 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:54:12.680 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:54:12.760 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:54:12.798 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:54:13.099 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:54:13.437 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:54:13.489 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:56:28.154 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:56:28.521 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:56:28.697 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:56:33.269 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:56:33.922 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:56:34.163 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:56:34.356 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:56:37.446 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:56:37.815 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:56:37.874 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:56:37.951 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:56:38.268 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:56:38.470 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:56:38.660 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:56:38.827 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:56:38.909 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:56:38.968 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:56:39.150 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:56:39.435 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:56:39.489 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:58:16.559 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 15:58:16.946 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 15:58:17.088 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 15:58:21.236 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:58:21.691 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 15:58:21.939 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 15:58:22.093 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:58:25.117 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 15:58:25.403 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 15:58:25.482 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 15:58:25.551 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 15:58:25.836 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:58:26.033 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 15:58:26.206 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:58:26.408 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 15:58:26.454 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 15:58:26.552 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 15:58:26.765 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 15:58:27.007 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 15:58:27.095 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:00:28.140 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:00:28.422 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:00:28.535 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:00:32.929 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:00:33.237 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:00:33.530 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:00:33.694 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:00:37.319 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:00:37.600 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:00:37.683 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:00:37.727 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:00:38.123 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:00:38.350 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:00:38.481 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:00:38.592 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:00:38.672 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:00:38.711 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:00:38.885 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:00:39.381 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:00:39.428 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:03:13.015 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:03:13.359 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:03:13.568 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:03:18.248 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:03:18.620 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:03:19.070 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:03:19.246 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:03:22.564 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:03:22.905 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:03:23.020 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:03:23.095 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:03:23.593 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:03:23.814 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:03:23.980 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:03:24.160 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:03:24.240 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:03:24.337 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:03:24.538 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:03:24.790 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:03:25.088 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:05:31.903 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:05:32.141 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:05:32.331 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:05:36.945 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:05:37.478 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:05:37.627 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:05:37.776 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:05:41.058 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:05:41.323 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:05:41.407 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:05:41.671 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:05:42.225 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:05:42.486 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:05:42.563 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:05:42.823 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:05:42.880 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:05:42.928 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:05:43.044 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:05:43.293 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:05:43.353 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:09:43.052 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:09:43.374 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:09:43.527 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:09:47.572 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:09:47.955 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:09:48.207 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:09:48.369 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:09:51.096 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:09:51.281 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:09:51.367 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:09:51.470 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:09:51.793 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:09:52.037 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:09:52.170 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:09:52.398 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:09:52.514 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:09:52.641 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:09:52.861 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:09:53.308 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:09:53.384 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:10:57.583 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:10:57.871 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:10:58.012 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:11:02.308 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:11:02.807 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:11:03.042 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:11:03.253 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:11:05.829 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:11:06.091 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:11:06.144 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:11:06.230 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:11:06.552 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:11:06.802 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:11:07.207 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:11:07.386 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:11:07.429 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:11:07.528 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:11:07.737 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:11:08.145 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:11:08.274 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:13:46.188 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:13:46.489 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:13:46.583 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:13:51.107 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:13:51.533 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:13:51.762 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:13:51.923 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:13:54.246 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:13:54.545 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:13:54.630 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:13:54.698 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:13:54.939 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:13:55.106 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:13:55.211 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:13:55.452 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:13:55.509 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:13:55.557 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:13:55.864 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:13:56.283 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:13:56.364 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:16:21.299 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:16:21.472 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:16:21.578 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:16:26.361 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:16:26.594 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:16:26.842 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:16:26.991 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:16:30.283 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:16:30.676 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:16:30.849 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:16:30.921 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:16:31.189 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:16:31.487 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:16:31.692 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:16:31.947 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:16:32.056 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:16:32.253 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:16:32.691 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:16:32.994 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:16:33.114 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:24:22.659 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:24:22.939 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:24:23.125 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:24:27.291 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:24:27.513 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:24:27.690 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:24:27.901 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:24:31.043 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:24:31.317 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:24:31.429 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:24:31.522 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:24:31.797 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:24:31.959 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:24:32.129 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:24:32.309 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:24:32.340 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:24:32.401 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:24:32.623 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:24:32.851 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:24:32.998 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:26:14.298 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:26:14.590 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:26:14.791 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:26:19.615 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:26:19.839 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:26:20.099 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:26:20.250 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:26:23.296 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:26:23.608 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:26:23.677 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:26:23.809 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:26:24.039 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:26:24.301 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:26:24.446 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:26:24.675 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:26:24.731 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:26:24.786 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:26:24.921 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:26:25.260 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:26:25.381 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:34:17.507 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:34:17.762 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:34:17.900 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:34:22.550 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:34:22.788 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:34:22.917 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:34:23.087 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:34:25.843 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:34:26.135 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:34:26.263 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:34:26.355 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:34:26.734 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:34:26.931 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:34:27.019 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:34:27.169 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:34:27.211 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:34:27.294 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:34:27.535 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:34:27.837 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:34:27.875 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:37:34.794 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:37:35.033 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:37:35.135 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:37:39.451 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:37:39.884 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:37:40.132 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:37:40.297 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:37:42.924 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:37:43.204 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:37:43.290 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:37:43.413 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:37:43.732 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:37:43.954 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:37:44.104 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:37:44.302 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:37:44.336 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:37:44.386 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:37:44.788 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:37:45.175 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:37:45.367 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:54:27.718 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 16:54:27.999 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 16:54:28.160 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 16:54:32.889 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:54:33.134 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 16:54:33.383 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 16:54:33.582 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:54:36.652 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 16:54:36.912 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 16:54:36.993 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 16:54:37.093 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 16:54:37.464 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:54:37.662 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 16:54:37.810 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:54:38.097 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 16:54:38.147 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 16:54:38.206 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 16:54:38.279 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 16:54:38.626 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 16:54:38.720 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:19:01.035 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:19:01.343 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:19:01.444 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:19:05.382 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:19:05.810 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:19:05.997 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:19:06.148 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:19:09.120 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:19:09.427 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:19:09.542 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:19:09.614 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:19:09.924 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:19:10.118 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:19:10.246 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:19:10.459 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:19:10.493 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:19:10.579 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:19:10.768 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:19:11.040 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:19:11.122 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:21:34.767 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:21:35.035 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:21:35.125 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:21:39.444 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:21:39.776 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:21:39.959 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:21:40.138 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:21:42.665 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:21:42.873 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:21:42.940 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:21:43.021 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:21:43.391 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:21:43.634 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:21:43.763 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:21:43.906 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:21:43.980 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:21:44.029 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:21:44.286 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:21:44.862 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:21:45.011 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:23:24.593 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:23:24.859 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:23:24.996 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:23:29.380 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:23:29.645 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:23:29.797 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:23:30.024 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:23:32.835 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:23:33.068 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:23:33.145 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:23:33.321 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:23:33.841 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:23:34.172 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:23:34.394 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:23:34.661 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:23:34.713 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:23:34.788 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:23:34.993 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:23:35.319 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:23:35.369 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:25:41.723 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:25:41.965 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:25:42.147 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:25:46.376 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:25:46.727 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:25:47.089 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:25:47.308 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:25:50.321 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:25:50.542 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:25:50.630 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:25:50.717 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:25:51.212 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:25:51.433 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:25:51.627 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:25:51.868 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:25:51.930 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:25:51.966 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:25:52.090 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:25:52.370 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:25:52.415 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:27:27.207 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:27:27.474 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:27:27.632 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:27:32.333 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:27:32.580 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:27:32.785 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:27:32.975 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:27:37.187 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:27:37.427 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:27:37.492 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:27:37.580 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:27:37.853 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:27:38.094 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:27:38.177 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:27:38.410 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:27:38.448 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:27:38.510 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:27:38.710 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:27:39.348 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:27:39.413 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:30:26.147 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:30:26.519 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:30:26.630 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:30:30.560 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:30:30.736 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:30:30.941 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:30:31.142 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:30:33.894 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:30:34.132 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:30:34.152 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:30:34.222 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:30:34.730 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:30:34.915 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:30:35.054 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:30:35.242 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:30:35.277 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:30:35.360 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:30:35.525 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:30:35.757 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:30:35.857 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:32:43.457 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:32:43.695 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:32:43.790 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:32:48.199 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:32:48.535 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:32:48.743 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:32:48.940 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:32:51.836 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:32:52.028 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:32:52.123 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:32:52.182 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:32:52.522 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:32:52.709 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:32:52.799 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:32:53.024 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:32:53.101 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:32:53.196 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:32:53.391 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:32:53.689 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:32:53.786 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:36:57.384 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:36:57.611 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:36:57.708 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:37:02.082 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:37:02.377 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:37:02.566 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:37:02.724 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:37:05.105 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:37:05.415 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:37:05.498 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:37:05.641 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:37:06.014 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:37:06.176 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:37:06.369 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:37:06.493 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:37:06.531 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:37:06.591 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:37:06.833 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:37:07.329 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:37:07.405 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:38:35.998 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:38:36.360 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:38:36.510 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:38:41.043 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:38:41.272 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:38:41.480 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:38:41.616 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:38:44.071 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:38:44.238 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:38:44.311 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:38:44.373 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:38:44.683 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:38:44.909 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:38:45.036 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:38:45.182 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:38:45.274 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:38:45.339 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:38:45.511 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:38:45.761 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:38:45.838 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:39:52.686 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:39:53.005 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:39:53.191 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:39:57.997 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:39:58.214 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:39:58.302 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:39:58.511 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:40:01.334 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:40:01.554 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:40:01.620 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:40:01.670 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:40:02.027 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:40:02.380 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:40:02.552 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:40:02.666 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:40:02.859 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:40:02.949 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:40:03.131 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:40:03.386 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:40:03.444 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:44:01.760 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:44:01.990 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:44:02.172 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:44:06.770 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:44:07.366 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:44:07.540 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:44:07.754 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:44:10.689 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:44:10.894 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:44:10.973 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:44:11.070 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:44:11.290 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:44:11.518 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:44:11.735 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:44:11.935 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:44:11.969 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:44:12.024 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:44:12.462 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:44:12.619 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:44:12.742 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:47:00.382 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:47:00.599 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:47:00.672 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:47:05.275 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:47:05.763 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:47:05.880 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:47:06.078 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:47:08.867 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:47:09.048 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:47:09.127 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:47:09.205 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:47:09.478 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:47:09.702 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:47:09.833 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:47:09.973 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:47:10.065 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:47:10.115 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:47:10.301 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:47:10.608 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:47:10.670 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:49:05.979 [main] ControllerExceptionHandler - NoSuchElement exception msg:FireStation doesn't exist!
+[ERROR] 2022-06-12 17:49:06.391 [main] ControllerExceptionHandler - BadRequest exception msg:FireStation already exist!
+[ERROR] 2022-06-12 17:49:06.518 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist!
+[ERROR] 2022-06-12 17:49:11.048 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:49:11.399 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit!
+[ERROR] 2022-06-12 17:49:11.713 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address doesn't exit !
+[ERROR] 2022-06-12 17:49:11.875 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:49:14.408 [main] ControllerExceptionHandler - NoSuchElement exception msg:Person doesn't exist !
+[ERROR] 2022-06-12 17:49:14.675 [main] ControllerExceptionHandler - BadRequest exception msg:Medical record already exist !
+[ERROR] 2022-06-12 17:49:14.770 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist!
+[ERROR] 2022-06-12 17:49:14.865 [main] ControllerExceptionHandler - NoSuchElement exception msg:Medical record doesn't exist !
+[ERROR] 2022-06-12 17:49:15.140 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:49:15.357 [main] ControllerExceptionHandler - NoSuchElement exception msg:Station doesn't exist !
+[ERROR] 2022-06-12 17:49:15.482 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:49:15.666 [main] ControllerExceptionHandler - BadRequest exception msg:Mapping address/station already exist !
+[ERROR] 2022-06-12 17:49:15.735 [main] ControllerExceptionHandler - NoSuchElement exception msg:station or address or both doesn't exit
+[ERROR] 2022-06-12 17:49:15.789 [main] ControllerExceptionHandler - NoSuchElement exception msg:Mapping address/station doesn't exist !
+[ERROR] 2022-06-12 17:49:15.985 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !
+[ERROR] 2022-06-12 17:49:16.190 [main] ControllerExceptionHandler - BadRequest exception msg:Address already exit!
+[ERROR] 2022-06-12 17:49:16.250 [main] ControllerExceptionHandler - NoSuchElement exception msg:Address  doesn't exist !

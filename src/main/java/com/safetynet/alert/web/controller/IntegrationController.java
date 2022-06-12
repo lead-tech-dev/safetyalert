@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IntegrationController {
 
-  private static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger log = LoggerFactory.getLogger(FireStationController.class);
   private final IntegrationDao integrationDao;
 
   public IntegrationController(IntegrationDao integrationDao) {

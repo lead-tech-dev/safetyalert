@@ -1,15 +1,15 @@
 package com.safetynet.alert.utils;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.firestation.FireStationDto;
 import com.safetynet.alert.dto.integration.ChildListDto;
 import com.safetynet.alert.dto.integration.FloodStationListDto;
 import com.safetynet.alert.dto.integration.PersonFireAddressListDto;
 import com.safetynet.alert.dto.integration.PersonInfoListDto;
 import com.safetynet.alert.dto.integration.PersonStationListDto;
 import com.safetynet.alert.model.Address;
-import com.safetynet.alert.model.AddressFireStation;
 import com.safetynet.alert.model.FireStation;
+import com.safetynet.alert.model.Station;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
 import org.junit.jupiter.api.DisplayName;
@@ -96,18 +96,18 @@ class ConvertDtoTest {
 
 
   @Test
-  @DisplayName("convertToAddressFireStationListDto should convert person to person address fireStation " +
+  @DisplayName("convertToFireStationListDto should convert person to person address fireStation " +
       "list dto")
   void convertToAddressFireStationListDto_ShouldConvertToPersonAddressFireStationList_ForGivenPerson() {
     // GIVEN
-    AddressFireStation addressFireStation = new AddressFireStation(
-        new Address("7 rue lucien deneau", "Mainvilliers", "28300"), new FireStation("2"));
+    FireStation addressFireStation = new FireStation(
+        new Address("7 rue lucien deneau", "Mainvilliers", "28300"), new Station("2"));
 
     // WHEN
-    AddressFireStationDto result =
-        ConvertDto.convertToAddressFireStationListDto(addressFireStation);
+    FireStationDto result =
+        ConvertDto.convertToFireStationListDto(addressFireStation);
 
     // THEN
-    assertThat(result).isEqualTo(new AddressFireStationDto("7 rue lucien deneau", "2"));
+    assertThat(result).isEqualTo(new FireStationDto("7 rue lucien deneau", "2"));
   }
 }
