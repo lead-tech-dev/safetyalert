@@ -1,6 +1,6 @@
 package com.safetynet.alert.utils;
 
-import com.safetynet.alert.dto.addressfirestation.AddressFireStationDto;
+import com.safetynet.alert.dto.firestation.FireStationDto;
 import com.safetynet.alert.dto.integration.ChildListDto;
 import com.safetynet.alert.dto.integration.FloodStationListDto;
 import com.safetynet.alert.dto.integration.PersonFireAddressListDto;
@@ -8,7 +8,7 @@ import com.safetynet.alert.dto.integration.PersonInfoListDto;
 import com.safetynet.alert.dto.integration.PersonStationListDto;
 import com.safetynet.alert.dto.person.PersonDto;
 import com.safetynet.alert.model.Address;
-import com.safetynet.alert.model.AddressFireStation;
+import com.safetynet.alert.model.FireStation;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
 import java.util.ArrayList;
@@ -119,15 +119,15 @@ public class ConvertDto {
   }
 
   /**
-   * convertToAddressFireStationListDto. Method that convert a
-   * AddressFireStation to AddressFireStationDto.
+   * convertToFireStationListDto. Method that convert a
+   * FireStation to FireStationDto.
    *
-   * @param addressFireStation a given addressFireStation
-   * @return AddressFireStationDto
+   * @param fireStation a given fireStation
+   * @return FireStationDto
    */
-  public static AddressFireStationDto convertToAddressFireStationListDto(
-      AddressFireStation addressFireStation) {
-    return new AddressFireStationDto(addressFireStation.getAddress().getStreet(),
-        addressFireStation.getFirestation().getStation());
+  public static FireStationDto convertToFireStationListDto(
+      FireStation fireStation) {
+    return new FireStationDto(fireStation.getAddress().getStreet(),
+        fireStation.getFirestation().getStation());
   }
 }

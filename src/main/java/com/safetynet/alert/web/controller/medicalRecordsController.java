@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/medicalRecord")
 public class MedicalRecordsController {
 
-  private static final Logger logger = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger logger = LoggerFactory.getLogger(FireStationController.class);
   private final MedicalRecordsDao medicalRecordsDao;
 
 

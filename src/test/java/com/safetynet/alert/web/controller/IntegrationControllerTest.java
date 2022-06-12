@@ -110,7 +110,7 @@ class IntegrationControllerTest extends AbstractTest {
   void getPersonFloodStationList_ShouldReturn200StatusCode_ForMapAddressPersonList()
       throws Exception {
     // GIVEN
-    String uri = "/flood/stations?stations=4,2";
+    String uri = "/flood/stations?stations=4,3";
 
     // WHEN
     MvcResult mvcResult = this.mvc.perform(MockMvcRequestBuilders.get(uri)
@@ -148,7 +148,7 @@ class IntegrationControllerTest extends AbstractTest {
   void getPersonInfoList_ShouldReturn200StatusCode_ForEmptyPersonListWithMedicalRecords()
       throws Exception {
     // GIVEN
-    String uri = "/personInfo?firstName=Cartman&lastName=Eric";
+    String uri = "/personInfo?firstName=John&lastName=Cartman";
 
     // WHEN
     MvcResult mvcResult = this.mvc.perform(MockMvcRequestBuilders.get(uri)

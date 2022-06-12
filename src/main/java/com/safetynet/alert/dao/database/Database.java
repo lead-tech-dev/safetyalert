@@ -3,8 +3,8 @@ package com.safetynet.alert.dao.database;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.safetynet.alert.model.Address;
-import com.safetynet.alert.model.AddressFireStation;
 import com.safetynet.alert.model.FireStation;
+import com.safetynet.alert.model.Station;
 import com.safetynet.alert.model.MedicalRecords;
 import com.safetynet.alert.model.Person;
 import java.io.FileInputStream;
@@ -24,9 +24,9 @@ public class Database {
   private static List<MedicalRecords> medicalRecordsData = null;
   private static List<Address> addressData = null;
 
-  private static List<FireStation> fireStationData = null;
+  private static List<Station> stationData = null;
 
-  private static List<AddressFireStation> addressFireStationData = null;
+  private static List<FireStation> fireStationData = null;
 
   /**
    * Use to get data by entity.
@@ -43,7 +43,7 @@ public class Database {
       JsonNode readJsonData = mapper.readTree(inputStream);
       records = readJsonData.at("/" + entity);
     } catch (IOException e) {
-      System.out.println("Unable to fetch persons: " + e.getMessage());
+      System.out.println("Unable to fetch data: " + e.getMessage());
     }
 
     return records;
@@ -143,23 +143,23 @@ public class Database {
   }
 
   /**
-   * Use to get FireStation data.
+   * Use to get Station data.
    *
-   * @return FireStation List
+   * @return Station List
    */
-  public static List<FireStation> getFireStationData() {
-    JsonNode fireStationRecords = getJsonData("firestations");
-    Set<FireStation> fireStations = new HashSet<>();
+  public static List<Station> getStationData() {
+    JsonNode stationRecords = getJsonData("firestations");
+    Set<Station> stations = new HashSet<>();
 
-    for (int i = 0; i < fireStationRecords.size(); i++) {
-      fireStations.add(new FireStation(fireStationRecords.get(i).at("/station").asText()));
+    for (int i = 0; i < stationRecords.size(); i++) {
+      stations.add(new Station(stationRecords.get(i).at("/station").asText()));
     }
 
-    if (fireStationData == null) {
-      fireStationData = new ArrayList<>(fireStations);
+    if (stationData == null) {
+      stationData = new ArrayList<>(stations);
     }
 
-    return fireStationData;
+    return stationData;
   }
 
 
@@ -168,22 +168,22 @@ public class Database {
    *
    * @return mapping address/station List
    */
-  public static List<AddressFireStation> getAddressFireStationData() {
-    JsonNode addressFireStationRecords = getJsonData("firestations");
+  public static List<FireStation> getFireStationData() {
+    JsonNode fireStationRecords = getJsonData("firestations");
 
-    if (addressFireStationData == null) {
-      addressFireStationData = new ArrayList<>();
+    if (fireStationData == null) {
+      fireStationData = new ArrayList<>();
 
-      for (int i = 0; i < addressFireStationRecords.size(); i++) {
-        addressFireStationData.add(new AddressFireStation(
+      for (int i = 0; i < fireStationRecords.size(); i++) {
+        fireStationData.add(new FireStation(
             getAddressByStreet(getPersonDataInfo(),
-                addressFireStationRecords.get(i).at("/address").asText()),
-            new FireStation(addressFireStationRecords.get(i).at("/station").asText())
+                fireStationRecords.get(i).at("/address").asText()),
+            new Station(fireStationRecords.get(i).at("/station").asText())
         ));
       }
     }
 
-    return addressFireStationData;
+    return fireStationData;
   }
 
   /**

@@ -1,7 +1,8 @@
 package com.safetynet.alert.web.controller;
 
+
 import com.safetynet.alert.dao.FireStationDao;
-import com.safetynet.alert.model.FireStation;
+import com.safetynet.alert.dto.firestation.FireStationDto;
 import java.util.List;
 import java.util.Objects;
 import javax.validation.Valid;
@@ -25,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/firestations")
 public class FireStationController {
 
-  private static final Logger log = LoggerFactory.getLogger(AddressFireStationController.class);
+  private static final Logger log = LoggerFactory.getLogger(FireStationController.class);
   private final FireStationDao fireStationDao;
 
   public FireStationController(FireStationDao fireStationDao) {
@@ -34,76 +35,80 @@ public class FireStationController {
 
   /**
    * getFireStation. Method that return a
-   * list of FireStation for response.
+   * list of FireStationDto for response.
    *
    * @return FireStation list
    */
   @GetMapping
-  public List<FireStation> getFireStation() {
+  public List<FireStationDto> getFireStation() {
     log.info("Getting address list");
 
-    List<FireStation> fireStations = fireStationDao.getFireStationList();
+    List<FireStationDto> fireStationDto =
+        this.fireStationDao.getFireStationList();
 
-    log.info("Get fireStations request success. fireStations found with data {}",
-        fireStations);
+    log.info("Get FireStation request success. FireStation found with data {}",
+        fireStationDto);
 
-    return fireStations;
+    return fireStationDto;
   }
 
   /**
-   * saveFireStation. Method that get an FireStation
-   * of request and return a save FireStation for response.
+   * saveFireStation. Method that get an FireStationDto
+   * of request and return a save FireStationDto for response.
    *
-   * @param fireStation a given FireStation
-   * @return FireStation object
+   * @param fireStationDto a given fireStationDto
+   * @return FireStationDto object
    */
   @PostMapping
-  public ResponseEntity<FireStation> saveFireStation(@Valid @RequestBody FireStation fireStation) {
-    log.info("Saving fireStation with fireStation {}", fireStation);
+  public ResponseEntity<FireStationDto> saveFireStation(@Valid @RequestBody
+                                                               FireStationDto fireStationDto) {
+    log.info("Saving fireStation with fireStation {}", fireStationDto);
 
-    FireStation fireStationAdded = fireStationDao.saveFireStation(fireStation);
-
-    if (Objects.isNull(fireStationAdded)) {
+    FireStationDto fireStationAdded =
+        fireStationDao.saveFireStation(fireStationDto);
+    if (Objects.isNull(fireStationDto)) {
       return ResponseEntity.noContent().build();
     }
 
     log.info("Save fireStation request success. Saved with fireStation {}",
-        fireStation);
+        fireStationDto);
 
     return new ResponseEntity<>(fireStationAdded, HttpStatus.CREATED);
   }
 
   /**
-   * updateFireStation. Method that get an FireStation
-   * of request and return an update FireStation for response.
+   * updateFireStation. Method that get an FireStationDto
+   * of request and return an update FireStationDto for response.
    *
-   * @param fireStation a given addressFireStationDto
-   * @return FireStation object
+   * @param fireStationDto a given fireStationDto
+   * @return FireStationDto object
    */
   @PutMapping
-  public FireStation updateFireStation(@Valid @RequestBody FireStation fireStation) {
-    log.info("Updating fireStation with fireStation {}", fireStation);
+  public FireStationDto updateFireStation(@Valid @RequestBody
+                                                 FireStationDto fireStationDto) {
+    log.info("Updating fireStation with fireStation {}", fireStationDto);
 
-    FireStation updated = fireStationDao.updateFireStation(fireStation);
+    FireStationDto updated =
+        fireStationDao.updateFireStation(fireStationDto);
 
     log.info("Update fireStation request success. fireStation updated with {}",
-        fireStation);
+        fireStationDto);
 
     return updated;
   }
 
   /**
-   * deleteFireStation. Method that get an FireStation
+   * deleteFireStation. Method that get an FireStationDto
    * from request.
    *
-   * @param fireStation a given FireStation
+   * @param fireStationDto a given fireStationDto
    */
   @DeleteMapping
-  public void deleteFireStation(@Valid @RequestBody FireStation fireStation) {
-    log.info("Deleting addressFireStation {}", fireStation);
+  public void deleteFireStation(@RequestBody FireStationDto fireStationDto) {
+    log.info("Deleting fireStation {}", fireStationDto);
 
-    fireStationDao.deleteFireStation(fireStation);
+    fireStationDao.deleteFireStation(fireStationDto);
 
-    log.info("Delete fireStation request success {}", fireStation);
+    log.info("Delete fireStation request success {}", fireStationDto);
   }
 }

@@ -1,6 +1,6 @@
 package com.safetynet.alert.dao.impl;
 
-import com.safetynet.alert.dao.AddressFireStationDao;
+import com.safetynet.alert.dao.FireStationDao;
 import com.safetynet.alert.dao.IntegrationDao;
 import com.safetynet.alert.dao.MedicalRecordsDao;
 import com.safetynet.alert.dao.PersonDao;
@@ -15,6 +15,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -33,7 +34,7 @@ import org.springframework.stereotype.Service;
 public class IntegrationDaoImpl implements IntegrationDao {
   private final PersonDao personDao;
 
-  private final AddressFireStationDao addressFireStationDao;
+  private final FireStationDao fireStationDao;
 
   private final MedicalRecordsDao medicalRecordsDao;
 
@@ -45,13 +46,13 @@ public class IntegrationDaoImpl implements IntegrationDao {
    * Constructor of class IntegrationDaoImpl.
    *
    * @param personDao a personDto
-   * @param addressFireStationDao a addressFireStationDao
+   * @param addressFireStationDao a fireStationDao
    * @param medicalRecordsDao a medicalRecordsDao
    */
-  public IntegrationDaoImpl(PersonDao personDao, AddressFireStationDao addressFireStationDao,
+  public IntegrationDaoImpl(PersonDao personDao, FireStationDao addressFireStationDao,
                             MedicalRecordsDao medicalRecordsDao) {
     this.personDao = personDao;
-    this.addressFireStationDao = addressFireStationDao;
+    this.fireStationDao = addressFireStationDao;
     this.medicalRecordsDao = medicalRecordsDao;
     this.personData = Database.getPersonDataInfo();
   }
@@ -64,7 +65,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
     Map<String, Object> data = new HashMap<>();
     List<PersonStationListDto> persons = new ArrayList<>();
 
-    List<String> addresses = addressFireStationDao.getAddressListByStation(stationNumber);
+    List<String> addresses = fireStationDao.getAddressListByStation(stationNumber);
     int adultNumber = 0;
     int childNumber = 0;
 
@@ -128,7 +129,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
   @Override
   public List<String> getPersonPhoneList(String fireStation) {
     List<String> data = new ArrayList<>();
-    List<String> addresses = addressFireStationDao.getAddressListByStation(fireStation);
+    List<String> addresses = fireStationDao.getAddressListByStation(fireStation);
 
     for (String address : addresses) {
       Person person = personDao.getPersonByAddress(address);
@@ -167,7 +168,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
       personFireAddress.add(ConvertDto.convertToPersonFireAddressListDto(person));
     }
 
-    data.put("Station", addressFireStationDao.getStationListByAddress(address));
+    data.put("Station", fireStationDao.getStationListByAddress(address));
     data.put("Residents", personFireAddress);
     return data;
   }
@@ -181,7 +182,7 @@ public class IntegrationDaoImpl implements IntegrationDao {
     List<String> addresses = new ArrayList<>();
 
     for (String station : stations) {
-      addresses.addAll(addressFireStationDao.getAddressListByStation(station));
+      addresses.addAll(fireStationDao.getAddressListByStation(station));
     }
 
     for (String address : addresses) {
@@ -232,13 +233,16 @@ public class IntegrationDaoImpl implements IntegrationDao {
   private int getPersonAge(Person person) {
     int age = 0;
     try {
-      Date personAge =
-          formatter.parse(medicalRecordsDao.getPersonBirthdate(person.getFirstName(),
-              person.getLastName()));
+      String birthdate = medicalRecordsDao.getPersonBirthdate(person.getFirstName(),
+          person.getLastName());
+      if (birthdate != null) {
+        Date personAge =
+            formatter.parse(birthdate);
 
-      Date curDate = Date.from(Instant.now());
+        Date curDate = Date.from(Instant.now());
 
-      age = curDate.getYear() - personAge.getYear();
+        age = curDate.getYear() - personAge.getYear();
+      }
 
     } catch (ParseException parseException) {
       System.out.println("error");

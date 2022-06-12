@@ -18,12 +18,11 @@ import java.util.List;
 @Tag("AddressControllerTest")
 @DisplayName("Address controller test logic")
 class AddressControllerTest extends  AbstractTest {
-
+  private final String uri = "/address";
   @Test
   @DisplayName("getAddress should return list of address")
   void getAddress_ShouldReturnAddressList() throws Exception {
     // GIVEN
-    String uri = "/address";
 
     // WHEN
     MvcResult mvcResult = this.mvc.perform(MockMvcRequestBuilders.get(uri)
@@ -40,7 +39,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("saveAddress should return added address with 201 Status code")
   void saveAddress_ShouldReturnAddedAddressWith201StatusCode_ForSuccessAdded() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("22 rue des oliviers", "Mainvilliers", "28300");
     String inputJson = super.mapToJson(address);
 
@@ -59,7 +57,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("saveAddress should return 400 Status code for already exist address")
   void saveAddress_ShouldReturnStatusCode_ForAlreadyExist() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("1509 Culver St", "Culver", "97451");
     String inputJson = super.mapToJson(address);
 
@@ -75,7 +72,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("updateAddress should return 404 status code for not exit address")
   void updateAddress_ShouldReturn404StatusCode_ForNotExistAddress() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("7 rue lucien deneau", "Mainvilliers", "28300");
     String inputJson = super.mapToJson(address);
 
@@ -91,7 +87,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("updateAddress should return updated address with 200 status code")
   void updateAddress_ShouldReturnUpdatedAddressWith200StatusCode_ForSuccessUpdated() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("1509 Culver St", "Mainvilliers", "28300");
     String inputJson = super.mapToJson(address);
 
@@ -110,7 +105,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("deleteAddress should return 404 status code")
   void deleteAddress_ShouldReturn404StatusCode_ForNotExistAddress() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("1509 Culver", "Culver", "97451");
     String inputJson = super.mapToJson(address);
 
@@ -126,7 +120,6 @@ class AddressControllerTest extends  AbstractTest {
   @DisplayName("deleteAddress should return 200 status code")
   void deleteAddress_ShouldReturn200StatusCode_ForSuccessDeleted() throws Exception {
     // GIVEN
-    String uri = "/address";
     Address address = new Address("748 Townings Dr", "Culver", "97451");
     String inputJson = super.mapToJson(address);
 
